@@ -30,7 +30,8 @@ makeCacheMatrix <- function(x = matrix()) {
 }
 
 
-## Write a short comment describing this function
+## returns the inverse of the matrix container provided, if the
+## container has a cached value, returns that instead of solving
 
 cacheSolve <- function(x, ...) {
         i <- x$getInverse()
